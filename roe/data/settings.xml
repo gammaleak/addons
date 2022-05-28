@@ -1,0 +1,13 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <blacklist />
+        <clear>true</clear>
+        <clearall>false</clearall>
+        <clearprogress>false</clearprogress>
+        <profiles>
+            <default>4083,16,12,4084,4082</default>
+            <spoilscrystals>71,73,75,77,72,74,76,78</spoilscrystals>
+        </profiles>
+    </global>
+</settings>

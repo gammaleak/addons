@@ -1,0 +1,20 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <accuracy>
+            <failed>0</failed>
+            <total>0</total>
+        </accuracy>
+        <delay>
+            <area>60</area>
+            <dig>15</dig>
+            <lag>3</lag>
+        </delay>
+        <fatigue>
+            <date>2021-09-05</date>
+            <diff>0</diff>
+            <free>0</free>
+            <items>0</items>
+        </fatigue>
+    </global>
+</settings>
