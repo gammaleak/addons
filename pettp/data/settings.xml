@@ -40,4 +40,10 @@
             </stroke>
         </text>
     </global>
+    <nalocbar>
+        <pos>
+            <x>1714</x>
+            <y>813</y>
+        </pos>
+    </nalocbar>
 </settings>
