@@ -59,19 +59,25 @@ bind !f4 input /ta <a23>
 bind !f5 input /ta <a24>
 bind !f6 input /ta <a25>
 
-// NEXTGames Edits:
+// Custom Edits:
 du blinking all combat on
 lua load XIPivot
 lua load zonename
-lua load equipviewer
-lua load ruptchat
-lua load xivparty
-lua load glenemybar
-lua load smeagol
-lua load pricer
 lua load BalloonBlue
+lua load equipviewer
+lua load glxivparty
+lua load glenemybar
 lua load glthtracker
+lua load pricer
+lua load ruptchat
+lua load SellNPC
+lua load Skillchains
+lua load smeagol
 wait 30
 parse show
 config FrameRateDivisor 1
+
+// Get Mappy here if you want to use it, otherwise delete these lines
+// https://github.com/KenshiDRK/mappy--Kenshi-Version
+// Adjust the pathing to Mappy to where you have it on your hdd.
 run ../Mappy_v1.5.2/mappy.exe
