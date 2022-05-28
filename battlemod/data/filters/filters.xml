@@ -17,7 +17,7 @@
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
             <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
             <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -124,7 +124,7 @@
                 <damage>false</damage>   <!-- Prevents your damage from appearing -->
                 <healing>false</healing> <!-- Prevents your healing from appearing -->
                 <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-                <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+                <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
                 <misses>false</misses>   <!-- Prevents your misses from appearing -->
                 <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
                 <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -151,7 +151,7 @@
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
             <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
             <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -180,7 +180,7 @@
                 <damage>false</damage>   <!-- Prevents your damage from appearing -->
                 <healing>false</healing> <!-- Prevents your healing from appearing -->
                 <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-                <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+                <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
                 <misses>false</misses>   <!-- Prevents your misses from appearing -->
                 <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
                 <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -284,7 +284,7 @@
             <casting>false</casting> <!-- Prevents your "Jim begins casting ____" messages from appearing -->
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
             <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -296,7 +296,7 @@
             <casting>false</casting> <!-- Prevents your "Jim begins casting ____" messages from appearing -->
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
             <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -308,7 +308,7 @@
             <casting>false</casting> <!-- Prevents your "Jim begins casting ____" messages from appearing -->
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
             <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
@@ -321,9 +321,9 @@
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
             <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
-            <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
+            <ranged>true</ranged>    <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
             <target>false</target>   <!-- true = SHOW all actions where I am the target. -->
             <uses>false</uses>       <!-- Prevents your "Jim uses an item." messages from appearing -->
@@ -335,9 +335,9 @@
             <damage>false</damage>   <!-- Prevents your damage from appearing -->
             <healing>false</healing> <!-- Prevents your healing from appearing -->
             <items>false</items>     <!-- Prevents your "Jim used an item. Jim gains the effect of Reraise." messages from appearing -->
-            <melee>false</melee>     <!-- Prevents your melee ("white") damage from appearing -->
+            <melee>true</melee>      <!-- Prevents your melee ("white") damage from appearing -->
             <misses>false</misses>   <!-- Prevents your misses from appearing -->
-            <ranged>false</ranged>   <!-- Prevents your ranged damage from appearing -->
+            <ranged>true</ranged>    <!-- Prevents your ranged damage from appearing -->
             <readies>false</readies> <!-- Prevents your "Jim readies ____" messages from appearing -->
             <target>false</target>   <!-- true = SHOW all actions where I am the target. -->
             <uses>false</uses>       <!-- Prevents your "Jim uses an item." messages from appearing -->
