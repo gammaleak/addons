@@ -1,7 +1,7 @@
 Gamma Leak's / Asura.Nalocbar's Windower Addons
 -----------------------------------------------
 
-These are just my person edits/tracking for Windower 4 addons.
+These are just my personal edits/tracking for Windower 4 addons.
 
 **Use at your own risk!**
 
