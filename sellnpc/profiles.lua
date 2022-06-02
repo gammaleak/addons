@@ -36,6 +36,7 @@ profiles['junk'] = S{
 	'Burdock',
 	'Bone Chip',
 	'Brass Loach',
+	'Breeze Geode',
 	'Ca Cuong',
 	'Cactus Stems', 
 	'Carrier Crab Carapace',
