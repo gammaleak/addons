@@ -196,6 +196,7 @@ profiles['junk'] = S{
 	'Sunflower Seeds',
 	'Swamp Ore',
 	'Tarutaru Rice',
+	'Thokcha Ingot',
 	'Three-eyed Fish',
 	'Tin Ore',
 	'Tiny Goldfish',
