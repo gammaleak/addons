@@ -33,7 +33,7 @@ bind !f10 drawdistance set 10
 bind ^f10 drawdistance set 1
 bind f11 game_forceambientlight
 bind f12 showfps
-bind sysrq screenshot png hide
+bind sysrq screenshot jpg hide
 bind ^v paste
 echo Toggle Lighting = F11 (Bump mapping must be off to work properly)
 echo Toggle FPS = F12
