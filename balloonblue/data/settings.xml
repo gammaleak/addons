@@ -110,19 +110,19 @@
     <nalocbar>
         <blImage>
             <pos>
-                <x>18.5</x>
-                <y>751</y>
+                <x>16.5</x>
+                <y>737</y>
             </pos>
         </blImage>
         <name>
             <pos>
-                <x>68.5</x>
-                <y>741</y>
+                <x>66.5</x>
+                <y>727</y>
             </pos>
         </name>
         <pos>
-            <x>68.5</x>
-            <y>747</y>
+            <x>66.5</x>
+            <y>733</y>
         </pos>
     </nalocbar>
 </settings>
