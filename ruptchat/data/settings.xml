@@ -33,6 +33,7 @@
         <mentions>
             <All />
             <Battle />
+            <Event />
             <General />
             <Linkshell />
             <Linkshell2 />
@@ -75,22 +76,28 @@
     </global>
     <nalocbar>
         <bg>
-            <alpha>80</alpha>
+            <alpha>25</alpha>
         </bg>
-        <bg_alpha>80</bg_alpha>
+        <bg_alpha>25</bg_alpha>
         <chat_input_placement>2</chat_input_placement>
         <drag_status>false</drag_status>
         <flags>
             <bold>true</bold>
         </flags>
-        <log_width>1040</log_width>
+        <log_length>14</log_length>
+        <log_width>1075</log_width>
         <pos>
             <x>386</x>
             <y>876</y>
         </pos>
         <snapback>false</snapback>
         <text>
+            <font>Lucida Console</font>
             <size>12</size>
+            <stroke>
+                <width>3</width>
+            </stroke>
         </text>
+        <undocked_tab>Event</undocked_tab>
     </nalocbar>
 </settings>
