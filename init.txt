@@ -33,7 +33,7 @@ bind !f10 drawdistance set 10
 bind ^f10 drawdistance set 1
 bind f11 game_forceambientlight
 bind f12 showfps
-bind sysrq screenshot jpg hide
+bind ^sysrq screenshot jpg hide
 bind ^v paste
 echo Toggle Lighting = F11 (Bump mapping must be off to work properly)
 echo Toggle FPS = F12
@@ -61,18 +61,19 @@ bind !f6 input /ta <a25>
 
 // Custom Edits:
 du blinking all combat on
-lua load XIPivot
-lua load zonename
-lua load BalloonBlue
+lua load xipivot
+lua load balloon
 lua load equipviewer
 lua load glxivparty
 lua load glenemybar
 lua load glthtracker
 lua load pricer
 lua load ruptchat
-lua load SellNPC
-lua load Skillchains
+lua load sellnpc
+lua load skillchains
 lua load smeagol
+lua load xicamera
+lua load zonename
 wait 30
 parse show
 config FrameRateDivisor 1
