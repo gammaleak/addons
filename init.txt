@@ -64,14 +64,16 @@ du blinking all combat on
 lua load xipivot
 lua load balloon
 lua load equipviewer
-lua load glxivparty
+//lua load glxivparty
 lua load glenemybar
 lua load glthtracker
+lua load partybuffs
 lua load pricer
 lua load ruptchat
 lua load sellnpc
 lua load skillchains
 lua load smeagol
+lua load tparty
 lua load xicamera
 lua load zonename
 wait 30
