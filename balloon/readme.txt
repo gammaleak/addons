@@ -119,11 +119,18 @@ Windower4 unofficial add-on Balloon
 		Per-character balloons still work, they now go under eg: themes/<theme>/characters/Iroha.png
 	ver 0.11 31/5/22 Scaling.
 		Added a scale command to increase/decrease the size of the balloon by a decimal multiplier, eg: 1.5
-	ver 0.11.1 2/6/22 Fixed image scaling when the balloon image changes.
+	ver 0.11.1 2/6/22 Scaling fix.
+		Fixed image scaling when the balloon image changes.
+	ver 0.11.2 3/6/22 FFVII-R Subtitle Theme.
+		Added a new theme based on the subtitles in FFVII Remake.
+	ver 0.12 8/6/22 Animated text display.
+		Added animated text display.
+		Added a visible countdown timer for prompt-less balloons.
+		Made the scroll lock key hide the balloon, like it does the vanilla UI.
+		A *lot* of code cleanup.
 
-Send any feedback to Yuki in #unofficial-addons channel on Windower Discord.
-
-Or feel free to open an issue at https://github.com/StarlitGhost/Balloon if you have trouble with my fork!
+Send any feedback/questions to Ghosty in the #unofficial-addons channel on the Windower Discord.
+Or open an issue on the GitHub repo at https://github.com/StarlitGhost/Balloon
 
 ■ Author
 	Hando
