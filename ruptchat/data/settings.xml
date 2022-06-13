@@ -85,18 +85,19 @@
             <bold>true</bold>
         </flags>
         <log_length>14</log_length>
-        <log_width>1075</log_width>
+        <log_width>1210</log_width>
         <pos>
-            <x>386</x>
-            <y>876</y>
+            <x>384</x>
+            <y>878</y>
         </pos>
         <snapback>false</snapback>
         <text>
-            <font>Lucida Console</font>
-            <size>12</size>
+            <font>Terminus (TTF)</font>
+            <size>11</size>
             <stroke>
                 <width>3</width>
             </stroke>
         </text>
+        <undocked_tab>Party</undocked_tab>
     </nalocbar>
 </settings>
