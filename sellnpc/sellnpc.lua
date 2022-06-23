@@ -1,6 +1,6 @@
 _addon.command = 'SellNPC'
 _addon.version = '2.0.0.0'
-_addon.author = 'Ivaar; safety modification by Gamma Leak'
+_addon.author = 'Ivaar'
 _addon.name = 'SellNPC'
 
 require('sets')
