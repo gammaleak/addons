@@ -1,4 +1,4 @@
-_addon.author = 'Erupt'
+_addon.author = 'Erupt; ; Undocking code commented out by Gamma Leak'
 _addon.commands = {'rchat'}
 _addon.name = 'RuptChat'
 _addon.version = '1.2.02012021.1'
@@ -264,21 +264,21 @@ function valid_tab(tab)
 	return false
 end
 
--- function undock(menu)
-	-- if settings.undocked_window and settings.undocked_tab == menu then
-		-- settings.undocked_window = false
-		-- TextWindow.undocked:visible(false)
-		-- reload_text()
-		-- config.save(settings, windower.ffxi.get_player().name)
-	-- else
-		-- settings.undocked_tab = menu
-		-- settings.undocked_window = true
-		-- texts.bg_alpha(TextWindow.undocked, texts.bg_alpha(TextWindow.main))
-		-- texts.size(TextWindow.undocked, texts.size(TextWindow.main))
-		-- reload_text()
-		-- config.save(settings, windower.ffxi.get_player().name)
-	-- end
--- end
+function undock(menu)
+	if settings.undocked_window and settings.undocked_tab == menu then
+		settings.undocked_window = false
+		TextWindow.undocked:visible(false)
+		reload_text()
+		config.save(settings, windower.ffxi.get_player().name)
+	else
+		settings.undocked_tab = menu
+		settings.undocked_window = true
+		texts.bg_alpha(TextWindow.undocked, texts.bg_alpha(TextWindow.main))
+		texts.size(TextWindow.undocked, texts.size(TextWindow.main))
+		reload_text()
+		config.save(settings, windower.ffxi.get_player().name)
+	end
+end
 
 queue_reload_text = false
 reload_clock = os.clock()+1
@@ -512,24 +512,24 @@ function addon_command(...)
 					end
 				end
 			end
-		-- elseif cmd == 'undock' then
-			-- if args[1] and valid_tab(args[1]) then
-				-- undock(args[1])
-			-- else
-				-- if settings.undocked_tab then
-					-- undock(settings.undocked_tab)
-				-- end
-			-- end
-		-- elseif cmd == 'undocked_hide' then
-			-- if settings.undocked_hide then
-				-- log('Setting undocked_hide to false')
-				-- settings.undocked_hide = false
-				-- config.save(settings, windower.ffxi.get_player().name)
-			-- else
-				-- log('Setting undocked_hide to true')
-				-- settings.undocked_hide = true
-				-- config.save(settings, windower.ffxi.get_player().name)
-			-- end
+		elseif cmd == 'undock' then
+			if args[1] and valid_tab(args[1]) then
+				undock(args[1])
+			else
+				if settings.undocked_tab then
+					undock(settings.undocked_tab)
+				end
+			end
+		elseif cmd == 'undocked_hide' then
+			if settings.undocked_hide then
+				log('Setting undocked_hide to false')
+				settings.undocked_hide = false
+				config.save(settings, windower.ffxi.get_player().name)
+			else
+				log('Setting undocked_hide to true')
+				settings.undocked_hide = true
+				config.save(settings, windower.ffxi.get_player().name)
+			end
 		elseif cmd == 'battle_all' then
 			if settings.battle_all then
 				log('Setting battle_all to false')
@@ -582,20 +582,20 @@ function addon_command(...)
 				config.save(settings, windower.ffxi.get_player().name)
 			end
 			reload_text()
-		-- elseif cmd == 'snapback' then
-			-- if settings.snapback then
-				-- log('Setting snapback to false')
-				-- settings.snapback = false
-				-- config.save(settings, windower.ffxi.get_player().name)
-			-- else
-				-- log('Setting snapback to true')
-				-- settings.snapback = true
-				-- config.save(settings, windower.ffxi.get_player().name)
-			-- end
-			-- boundries = {texts.extents(TextWindow.main)}
-			-- local t_pos_x = texts.pos_x(TextWindow.main)
-			-- local t_pos_y = texts.pos_y(TextWindow.main)
-			-- TextWindow.undocked:pos((boundries[1]+t_pos_x+2),t_pos_y)
+		elseif cmd == 'snapback' then
+			if settings.snapback then
+				log('Setting snapback to false')
+				settings.snapback = false
+				config.save(settings, windower.ffxi.get_player().name)
+			else
+				log('Setting snapback to true')
+				settings.snapback = true
+				config.save(settings, windower.ffxi.get_player().name)
+			end
+			boundries = {texts.extents(TextWindow.main)}
+			local t_pos_x = texts.pos_x(TextWindow.main)
+			local t_pos_y = texts.pos_y(TextWindow.main)
+			TextWindow.undocked:pos((boundries[1]+t_pos_x+2),t_pos_y)
 		elseif cmd == 'incoming_pause' then
 			if settings.incoming_pause then
 				log('Setting incoming_pause to false')
@@ -854,10 +854,10 @@ function menu(menunumber,c)
 		local player = windower.ffxi.get_player()
 		if tonumber(menunumber) ~= nil and all_tabs[menunumber] then -- generic menus
 			menuname = all_tabs[menunumber]
-			-- if alt_down then
-				-- undock(menuname)
-				-- return
-			-- end
+			if alt_down then
+				undock(menuname)
+				return
+			end
 			current_tab = menuname
 			reset_tab()
 			if not chat_tables[current_tab] then chat_tables[current_tab] = {} end
@@ -986,9 +986,9 @@ function check_mentions(id, chat)
 			if current_tab == chat_type then
 				return
 			end
-			-- if settings.undocked_window and settings.undocked_tab == chat_type then
-				-- return
-			-- end
+			if settings.undocked_window and settings.undocked_tab == chat_type then
+				return
+			end
 		end
 		local stripped = string.gsub(chat,'[^A-Za-z%s]','')
 		local splitted = split(stripped,' ')
