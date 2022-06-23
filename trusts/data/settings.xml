@@ -4,12 +4,6 @@
         <auto>true</auto>
         <language>English</language>
         <sets>
-            <beginners>
-                <1>Valaineral</1>
-                <2>Semih Lafihna</2>
-                <3>Kupipi</3>
-                <4>Adelheid</4>
-            </beginners>
             <chaingang>
                 <1>Valaineral</1>
                 <2>Ayame</2>
@@ -17,48 +11,13 @@
                 <4>Yoran-Oran (UC)</4>
                 <5>Shantotto II</5>
             </chaingang>
-            <default>
-                <1>Valaineral</1>
-                <2>Mihli Aliapoh</2>
-                <3>Tenzen</3>
-                <4>Adelheid</4>
-                <5>Joachim</5>
-            </default>
             <enchantedones>
                 <1>Amchuchu</1>
                 <2>Selh&apos;teus</2>
                 <3>King of Hearts</3>
-                <4>Apururu (UC)</4>
+                <4>Yoran-Oran (UC)</4>
                 <5>Shantotto II</5>
             </enchantedones>
-            <experts>
-                <1>Trion</1>
-                <2>Zeid II</2>
-                <3>Rainemard</3>
-                <4>Mihli Aliapoh</4>
-                <5>Ajido-Marujido</5>
-            </experts>
-            <hov>
-                <1>Zeid II</1>
-                <2>Prishe II</2>
-                <3>Nashmeira II</3>
-                <4>Tenzen II</4>
-                <5>Kupipi</5>
-            </hov>
-            <lionspride>
-                <1>Lion II</1>
-                <2>Trion</2>
-                <3>Mihli Aliapoh</3>
-                <4>Ajido-Marujido</4>
-                <5>Lilisette II</5>
-            </lionspride>
-            <misfits>
-                <1>Mnejing</1>
-                <2>Balamor</2>
-                <3>King of Hearts</3>
-                <4>Mihli Aliapoh</4>
-                <5>Ovjang</5>
-            </misfits>
             <potbusters>
                 <1>Valaineral</1>
                 <2>Mildaurion</2>
@@ -66,13 +25,6 @@
                 <4>Yoran-Oran (UC)</4>
                 <5>Cornelia</5>
             </potbusters>
-            <wintaru>
-                <1>Amchuchu</1>
-                <2>Selh&apos;teus</2>
-                <3>Koru-Moru</3>
-                <4>Kupipi</4>
-                <5>Shantotto II</5>
-            </wintaru>
         </sets>
         <wait>
             <aftercast>3</aftercast>
