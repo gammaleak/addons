@@ -69,7 +69,6 @@
             </stroke>
         </text>
         <undocked_hide>false</undocked_hide>
-        <undocked_tab>Linkshell</undocked_tab>
         <undocked_window>false</undocked_window>
         <vanilla_mode>false</vanilla_mode>
         <window_visible>true</window_visible>
@@ -90,7 +89,6 @@
             <x>384</x>
             <y>878</y>
         </pos>
-        <snapback>false</snapback>
         <text>
             <font>Terminus (TTF)</font>
             <size>11</size>
@@ -98,6 +96,5 @@
                 <width>3</width>
             </stroke>
         </text>
-        <undocked_tab>Party</undocked_tab>
     </nalocbar>
 </settings>
