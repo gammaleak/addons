@@ -34,16 +34,20 @@ end
 
 function sell_all_items()
     local num = 0
+    local safety_wait = 1
+    math.randomseed(os.time()) -- random initialize
     for index = 1, 80 do local item = windower.ffxi.get_items(0,index)
         if item and sales_que[item.id] and item.status == 0 then
             windower.packets.inject_outgoing(0x084,string.char(0x084,0x06,0,0,item.count,0,0,0,item.id%256,math.floor(item.id/256)%256,index,0))
             windower.packets.inject_outgoing(0x085,string.char(0x085,0x04,0,0,1,0,0,0))
             num = num + item.count
+            safety_wait = math.random(1,3)
+            coroutine.sleep(safety_wait)
         end
     end
     sales_que = {}
     if num > 0 then
-        windower.add_to_chat(207, '%s: Selling %d items.':format(_addon.name, num))
+        windower.add_to_chat(207, '%s: %d items sold.':format(_addon.name, num))
     end
 end
 
