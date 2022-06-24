@@ -162,7 +162,6 @@ profiles['junk'] = S{
 	'Lizard Tail',
 	'Loc. Elutriator',
 	'Mackerel',
-	'Mahogany Log',
 	'Maple Log',
 	'Matamata Shell',
 	'Marguerite',
