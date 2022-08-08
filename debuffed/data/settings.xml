@@ -39,7 +39,7 @@
         <text>
             <alpha>255</alpha>
             <blue>255</blue>
-            <font>Arial</font>
+            <font>Final Fantasy 3/6 Font</font>
             <fonts>
 
             </fonts>
@@ -63,4 +63,10 @@
             <y>717</y>
         </pos>
     </nalocbar>
+    <thedrican>
+        <pos>
+            <x>173</x>
+            <y>894</y>
+        </pos>
+    </thedrican>
 </settings>

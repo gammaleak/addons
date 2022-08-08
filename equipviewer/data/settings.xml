@@ -53,7 +53,13 @@
         </icon>
         <pos>
             <x>1825</x>
-            <y>255</y>
+            <y>385</y>
         </pos>
     </nalocbar>
+    <thedrican>
+        <pos>
+            <x>1825</x>
+            <y>525</y>
+        </pos>
+    </thedrican>
 </settings>

@@ -17,7 +17,7 @@
                 <y>854</y>
             </pos>
             <text>
-                <font>Terminus (TTF)</font>
+                <font>Final Fantasy 3/6 Font</font>
                 <size>10</size>
             </text>
         </abilitytxt>
@@ -37,7 +37,7 @@
                 <y>830</y>
             </pos>
             <text>
-                <font>Terminus (TTF)</font>
+                <font>Final Fantasy 3/6 Font</font>
                 <size>14</size>
             </text>
         </heighttxt>
@@ -57,7 +57,7 @@
                 <y>830</y>
             </pos>
             <text>
-                <font>Terminus (TTF)</font>
+                <font>Final Fantasy 3/6 Font</font>
                 <size>14</size>
             </text>
         </main>
@@ -77,7 +77,7 @@
                 <y>854</y>
             </pos>
             <text>
-                <font>Terminus (TTF)</font>
+                <font>Final Fantasy 3/6 Font</font>
                 <size>14</size>
             </text>
         </pettxt>

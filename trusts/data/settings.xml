@@ -4,6 +4,20 @@
         <auto>true</auto>
         <language>English</language>
         <sets>
+            <a2j>
+                <1>Valaineral</1>
+                <2>King of Hearts</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Shantotto II</4>
+                <5>AATT</5>
+            </a2j>
+            <aevery>
+                <1>AAEV</1>
+                <2>Zeid II</2>
+                <3>Koru-Moru</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Shantotto II</5>
+            </aevery>
             <chaingang>
                 <1>Valaineral</1>
                 <2>Ayame</2>
@@ -11,6 +25,13 @@
                 <4>Yoran-Oran (UC)</4>
                 <5>Shantotto II</5>
             </chaingang>
+            <default>
+                <1>Valaineral</1>
+                <2>Mihli Aliapoh</2>
+                <3>Tenzen</3>
+                <4>Adelheid</4>
+                <5>Joachim</5>
+            </default>
             <enchantedones>
                 <1>Amchuchu</1>
                 <2>Selh&apos;teus</2>
@@ -18,6 +39,41 @@
                 <4>Yoran-Oran (UC)</4>
                 <5>Shantotto II</5>
             </enchantedones>
+            <hibrd>
+                <1>AAEV</1>
+                <2>Zeid II</2>
+                <3>AAGK</3>
+                <4>Koru-Moru</4>
+                <5>Yoran-Oran (UC)</5>
+            </hibrd>
+            <lobrd>
+                <1>Amchuchu</1>
+                <2>Rainemard</2>
+                <3>Koru-Moru</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Shantotto II</5>
+            </lobrd>
+            <masters>
+                <1>Valaineral</1>
+                <2>Iroha II</2>
+                <3>Arciela II</3>
+                <4>Ulmia</4>
+                <5>Yoran-Oran (UC)</5>
+            </masters>
+            <points>
+                <1>Amchuchu</1>
+                <2>Zeid II</2>
+                <3>Arciela II</3>
+                <4>Koru-Moru</4>
+                <5>Yoran-Oran (UC)</5>
+            </points>
+            <points2>
+                <1>Amchuchu</1>
+                <2>Balamor</2>
+                <3>Koru-Moru</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Shantotto II</5>
+            </points2>
             <potbusters>
                 <1>Valaineral</1>
                 <2>Mildaurion</2>

@@ -63,6 +63,7 @@ bind !f6 input /ta <a25>
 du blinking all combat on
 lua load xipivot
 lua load balloon
+lua load currency
 lua load equipviewer
 //lua load glxivparty
 lua load glenemybar

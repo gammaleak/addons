@@ -17,4 +17,19 @@
             <items>0</items>
         </fatigue>
     </global>
+    <nalocbar>
+        <accuracy>
+            <failed>780</failed>
+            <total>1091</total>
+        </accuracy>
+        <delay>
+            <area>55</area>
+            <dig>10</dig>
+        </delay>
+        <fatigue>
+            <date>2022-08-06</date>
+            <diff>-251</diff>
+            <items>59</items>
+        </fatigue>
+    </nalocbar>
 </settings>
