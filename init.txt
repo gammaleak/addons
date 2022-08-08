@@ -65,7 +65,6 @@ lua load xipivot
 lua load balloon
 lua load currency
 lua load equipviewer
-//lua load glxivparty
 lua load glenemybar
 lua load glthtracker
 lua load partybuffs
