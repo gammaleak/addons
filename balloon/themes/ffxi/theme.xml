@@ -2,9 +2,9 @@
 <settings>
     <global>
         <NpcName>
-            <FontEnglish>Meiryo</FontEnglish>
+            <FontEnglish>Final Fantasy 3/6 Font</FontEnglish>
             <FontJapanese>Meiryo</FontJapanese>
-            <Size>13</Size>
+            <Size>18</Size>
             <Width>360</Width>
             <Height>43</Height>
             <OffsetX>-8</OffsetX>
@@ -26,9 +26,9 @@
             </Stroke>
         </NpcName>
         <Message>
-            <FontEnglish>Meiryo</FontEnglish>
+            <FontEnglish>Final Fantasy 3/6 Font</FontEnglish>
             <FontJapanese>Meiryo</FontJapanese>
-            <Size>10</Size>
+            <Size>13</Size>
             <MaxLength>81</MaxLength>
             <Width>610</Width>
             <Height>128</Height>
@@ -64,5 +64,11 @@
             <TextOffsetX>580</TextOffsetX>
             <TextOffsetY>100</TextOffsetY>
         </Timer>
+        <Portrait>
+            <Width>96</Width>
+            <Height>96</Height>
+            <OffsetX>0</OffsetX>
+            <OffsetY>-96</OffsetY>
+        </Portrait>
     </global>
 </settings>
