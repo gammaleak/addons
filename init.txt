@@ -10,7 +10,7 @@ console_screendir screenshots
 
 //Set game variables
 game_forceambientlight 0
-game_ambientlight 255 120 120 120
+game_ambientlight 255 75 75 75
 game_gamma 50
 game_allowsetcursorpos 0
 game_exittype 1
@@ -29,13 +29,13 @@ drawdistance set 10
 //Bind keys
 //Bind syntax is "bind <key> <up> <command>
 // ^ represents control- and ! is alt, eg !1 is alt-1
+bind f12 showfps
 bind !f10 drawdistance set 10
 bind ^f10 drawdistance set 1
-bind f11 game_forceambientlight
-bind f12 showfps
-bind ^sysrq screenshot jpg hide
+bind %end game_forceambientlight
+bind sysrq screenshot png hide
 bind ^v paste
-echo Toggle Lighting = F11 (Bump mapping must be off to work properly)
+echo Toggle Lighting = End (Bump mapping must be off to work properly)
 echo Toggle FPS = F12
 echo DrawDistance Lv 10: Alt-F10
 echo DrawDistance Lv 1: Ctrl-F10
@@ -59,8 +59,12 @@ bind !f4 input /ta <a23>
 bind !f5 input /ta <a24>
 bind !f6 input /ta <a25>
 
-// Custom Edits:
+// ==== Custom Edits ====
+
+// DressUp BlinkMeNot
 du blinking all combat on
+
+// Addon loading
 lua load xipivot
 lua load balloon
 lua load currency
@@ -74,10 +78,20 @@ lua load sellnpc
 lua load skillchains
 lua load smeagol
 lua load tparty
+lua load whereisdi
 lua load xicamera
 lua load zonename
-wait 30
+
+// The below wait command is to make sure that any further commands run LAST and 30 seconds after we login.
+wait 45
+
+// The below command loads GearInfo.  If it's loaded before this step it has problems.    Remove the // from before the line below if you use GearInfo.
+// lua load GearInfo
+
+// ??? Look into this... is it needed?
 parse show
+
+// The below command uncaps FPS to 60.  Setting it to 0 uncaps it and setting it to 2 is the default setting of 30.
 config FrameRateDivisor 1
 
 // Get Mappy here if you want to use it, otherwise delete these lines

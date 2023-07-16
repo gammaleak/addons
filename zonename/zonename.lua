@@ -222,6 +222,7 @@ function replace_region_nations()
     end
 end
 
+--[[
 function center_text()
     if (settings.centered) then
         local adjustFactor = windower_settings.x_res / windower_settings.ui_x_res
@@ -234,6 +235,24 @@ function center_text()
         )
         zone_text:pos(
             (xRes/2)-(zone_text_width/2) * adjustFactor,
+            (yRes/2) - (full_height - region_text_height)
+        )
+    end
+end
+]]
+
+function center_text()
+    if (settings.centered) then
+        local adjustFactor = windower_settings.x_res / windower_settings.ui_x_res
+        local zone_text_width, zone_text_height = zone_text:extents()
+        local region_text_width, region_text_height = region_text:extents()
+        local full_height = zone_text_height + region_text_height
+        region_text:pos(
+            (xRes/2)-(region_text_width/2),
+            (yRes/2) - full_height - 5
+        )
+        zone_text:pos(
+            (xRes/2)-(zone_text_width/2),
             (yRes/2) - (full_height - region_text_height)
         )
     end

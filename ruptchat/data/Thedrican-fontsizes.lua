@@ -1,70 +1,4 @@
 return {
-    ["terminus (ttf)"]={
-        [6]={
-            ["rchat_scale"]=44.357142857143, 
-            ["x_menu_scale"]=59.142857142857, 
-            ["minimize_scale"]=15.968571428571, 
-            ["x_char_len"]=4.4387755102041, 
-            ["y_scale"]=18, 
-            ["x_char_scale"]=5.45, 
-            ["y_scale_raw"]=13
-        }, 
-        [7]={
-            ["rchat_scale"]=51.642857142857, 
-            ["x_menu_scale"]=68.857142857143, 
-            ["minimize_scale"]=18.591428571429, 
-            ["x_char_len"]=5.1326530612245, 
-            ["y_scale"]=19, 
-            ["x_char_scale"]=6.15, 
-            ["y_scale_raw"]=14
-        }, 
-        [8]={
-            ["rchat_scale"]=58.928571428571, 
-            ["x_menu_scale"]=78.571428571429, 
-            ["minimize_scale"]=21.214285714286, 
-            ["x_char_len"]=5.8265306122449, 
-            ["y_scale"]=19.5, 
-            ["x_char_scale"]=6.85, 
-            ["y_scale_raw"]=14.5
-        }, 
-        [9]={
-            ["rchat_scale"]=66.214285714286, 
-            ["x_menu_scale"]=88.285714285714, 
-            ["minimize_scale"]=23.837142857143, 
-            ["x_char_len"]=6.5204081632653, 
-            ["y_scale"]=20.5, 
-            ["x_char_scale"]=7.55, 
-            ["y_scale_raw"]=15.5
-        }, 
-        [10]={
-            ["rchat_scale"]=73.5, 
-            ["x_menu_scale"]=98, 
-            ["minimize_scale"]=26.46, 
-            ["x_char_len"]=7.2142857142857, 
-            ["y_scale"]=21, 
-            ["x_char_scale"]=8.2, 
-            ["y_scale_raw"]=16
-        }, 
-        [11]={
-            ["rchat_scale"]=80.785714285714, 
-            ["x_menu_scale"]=107.71428571429, 
-            ["minimize_scale"]=29.082857142857, 
-            ["x_char_len"]=7.9081632653061, 
-            ["y_scale"]=21.5, 
-            ["x_char_scale"]=8.9, 
-            ["y_scale_raw"]=16.5
-        }, 
-        [12]={
-            ["rchat_scale"]=88.071428571429, 
-            ["x_menu_scale"]=117.42857142857, 
-            ["minimize_scale"]=31.705714285714, 
-            ["x_char_len"]=8.6020408163265, 
-            ["y_scale"]=22.5, 
-            ["x_char_scale"]=9.6, 
-            ["y_scale_raw"]=17.5
-        }, 
-        ["monospace_flag"]=true
-    }, 
     ["final fantasy 3/6 font"]={
         [6]={
             ["rchat_scale"]=26.357142857143, 
@@ -90,7 +24,7 @@ return {
             ["minimize_scale"]=12.535714285714, 
             ["x_char_len"]=3.530612244898, 
             ["y_scale"]=18.5, 
-            ["x_char_scale"]=8.7, 
+            ["x_char_scale"]=6.25, 
             ["y_scale_raw"]=13.5
         }, 
         [9]={
@@ -99,7 +33,7 @@ return {
             ["minimize_scale"]=14.078571428571, 
             ["x_char_len"]=3.9387755102041, 
             ["y_scale"]=19, 
-            ["x_char_scale"]=8.55, 
+            ["x_char_scale"]=6.85, 
             ["y_scale_raw"]=14
         }, 
         [10]={
@@ -131,69 +65,69 @@ return {
         }, 
         ["monospace_flag"]=false
     }, 
-    ["courier new"]={
+    ["ponderosa"]={
         [6]={
-            ["rchat_scale"]=52.714285714286, 
-            ["x_menu_scale"]=70.285714285714, 
-            ["minimize_scale"]=18.977142857143, 
-            ["x_char_len"]=5.234693877551, 
-            ["y_scale"]=16.5, 
-            ["x_char_scale"]=6.1, 
-            ["y_scale_raw"]=11.5
-        }, 
-        [7]={
-            ["rchat_scale"]=61.392857142857, 
-            ["x_menu_scale"]=81.857142857143, 
-            ["minimize_scale"]=22.101428571429, 
-            ["x_char_len"]=6.0612244897959, 
-            ["y_scale"]=17, 
-            ["x_char_scale"]=6.9, 
-            ["y_scale_raw"]=12
-        }, 
-        [8]={
-            ["rchat_scale"]=70.178571428571, 
-            ["x_menu_scale"]=93.571428571429, 
-            ["minimize_scale"]=25.264285714286, 
-            ["x_char_len"]=6.8979591836735, 
+            ["rchat_scale"]=72, 
+            ["x_menu_scale"]=96, 
+            ["minimize_scale"]=25.92, 
+            ["x_char_len"]=7.0714285714286, 
             ["y_scale"]=18, 
-            ["x_char_scale"]=7.75, 
+            ["x_char_scale"]=8.15, 
             ["y_scale_raw"]=13
         }, 
-        [9]={
-            ["rchat_scale"]=78.857142857143, 
-            ["x_menu_scale"]=105.14285714286, 
-            ["minimize_scale"]=28.388571428571, 
-            ["x_char_len"]=7.7244897959184, 
+        [7]={
+            ["rchat_scale"]=83.892857142857, 
+            ["x_menu_scale"]=111.85714285714, 
+            ["minimize_scale"]=30.201428571429, 
+            ["x_char_len"]=8.2040816326531, 
             ["y_scale"]=18.5, 
-            ["x_char_scale"]=8.55, 
+            ["x_char_scale"]=12.7, 
             ["y_scale_raw"]=13.5
         }, 
-        [10]={
-            ["rchat_scale"]=87.642857142857, 
-            ["x_menu_scale"]=116.85714285714, 
-            ["minimize_scale"]=31.551428571429, 
-            ["x_char_len"]=8.5612244897959, 
-            ["y_scale"]=19.5, 
-            ["x_char_scale"]=9.4, 
-            ["y_scale_raw"]=14.5
+        [8]={
+            ["rchat_scale"]=95.785714285714, 
+            ["x_menu_scale"]=127.71428571429, 
+            ["minimize_scale"]=34.482857142857, 
+            ["x_char_len"]=9.3367346938776, 
+            ["y_scale"]=19, 
+            ["x_char_scale"]=10.4, 
+            ["y_scale_raw"]=14
         }, 
-        [11]={
-            ["rchat_scale"]=96.428571428571, 
-            ["x_menu_scale"]=128.57142857143, 
-            ["minimize_scale"]=34.714285714286, 
-            ["x_char_len"]=9.3979591836735, 
+        [9]={
+            ["rchat_scale"]=107.67857142857, 
+            ["x_menu_scale"]=143.57142857143, 
+            ["minimize_scale"]=38.764285714286, 
+            ["x_char_len"]=10.469387755102, 
             ["y_scale"]=20, 
-            ["x_char_scale"]=10.2, 
+            ["x_char_scale"]=11.55, 
             ["y_scale_raw"]=15
         }, 
-        [12]={
-            ["rchat_scale"]=105.10714285714, 
-            ["x_menu_scale"]=140.14285714286, 
-            ["minimize_scale"]=37.838571428571, 
-            ["x_char_len"]=10.224489795918, 
+        [10]={
+            ["rchat_scale"]=119.57142857143, 
+            ["x_menu_scale"]=159.42857142857, 
+            ["minimize_scale"]=43.045714285714, 
+            ["x_char_len"]=11.602040816327, 
+            ["y_scale"]=20.5, 
+            ["x_char_scale"]=12.7, 
+            ["y_scale_raw"]=15.5
+        }, 
+        [11]={
+            ["rchat_scale"]=131.46428571429, 
+            ["x_menu_scale"]=175.28571428571, 
+            ["minimize_scale"]=47.327142857143, 
+            ["x_char_len"]=12.734693877551, 
             ["y_scale"]=21, 
-            ["x_char_scale"]=11.05, 
+            ["x_char_scale"]=13.85, 
             ["y_scale_raw"]=16
+        }, 
+        [12]={
+            ["rchat_scale"]=143.35714285714, 
+            ["x_menu_scale"]=191.14285714286, 
+            ["minimize_scale"]=51.608571428571, 
+            ["x_char_len"]=13.867346938776, 
+            ["y_scale"]=22, 
+            ["x_char_scale"]=14.95, 
+            ["y_scale_raw"]=17
         }, 
         ["monospace_flag"]=true
     }, 
@@ -201,66 +135,198 @@ return {
         [6]={
             ["rchat_scale"]=47.035714285714, 
             ["x_menu_scale"]=62.714285714286, 
-            ["minimize_scale"]=16.932857142857, 
             ["x_char_len"]=4.6938775510204, 
+            ["minimize_scale"]=16.932857142857, 
             ["y_scale"]=18.5, 
-            ["x_char_scale"]=10.5, 
-            ["y_scale_raw"]=13.5
+            ["y_scale_raw"]=13.5, 
+            ["x_char_scale"]=10.5
         }, 
         [7]={
             ["rchat_scale"]=54.75, 
             ["x_menu_scale"]=73, 
-            ["minimize_scale"]=19.71, 
             ["x_char_len"]=5.4285714285714, 
+            ["minimize_scale"]=19.71, 
             ["y_scale"]=19, 
-            ["x_char_scale"]=6.35, 
-            ["y_scale_raw"]=14
+            ["y_scale_raw"]=14, 
+            ["x_char_scale"]=6.35
         }, 
         [8]={
             ["rchat_scale"]=62.571428571429, 
             ["x_menu_scale"]=83.428571428571, 
-            ["minimize_scale"]=22.525714285714, 
             ["x_char_len"]=6.1734693877551, 
+            ["minimize_scale"]=22.525714285714, 
             ["y_scale"]=20, 
-            ["x_char_scale"]=7.45, 
-            ["y_scale_raw"]=15
+            ["y_scale_raw"]=15, 
+            ["x_char_scale"]=7.45
         }, 
         [9]={
             ["rchat_scale"]=70.285714285714, 
             ["x_menu_scale"]=93.714285714286, 
-            ["minimize_scale"]=25.302857142857, 
             ["x_char_len"]=6.9081632653061, 
+            ["minimize_scale"]=25.302857142857, 
             ["y_scale"]=20.5, 
-            ["x_char_scale"]=8.2, 
-            ["y_scale_raw"]=15.5
+            ["y_scale_raw"]=15.5, 
+            ["x_char_scale"]=8.2
         }, 
         [10]={
             ["rchat_scale"]=78, 
             ["x_menu_scale"]=104, 
-            ["minimize_scale"]=28.08, 
             ["x_char_len"]=7.6428571428571, 
+            ["minimize_scale"]=28.08, 
             ["y_scale"]=21.5, 
-            ["x_char_scale"]=9, 
-            ["y_scale_raw"]=16.5
+            ["y_scale_raw"]=16.5, 
+            ["x_char_scale"]=9
         }, 
         [11]={
             ["rchat_scale"]=85.714285714286, 
             ["x_menu_scale"]=114.28571428571, 
-            ["minimize_scale"]=30.857142857143, 
             ["x_char_len"]=8.3775510204082, 
+            ["minimize_scale"]=30.857142857143, 
             ["y_scale"]=22, 
-            ["x_char_scale"]=9.75, 
-            ["y_scale_raw"]=17
+            ["y_scale_raw"]=17, 
+            ["x_char_scale"]=9.75
         }, 
         [12]={
             ["rchat_scale"]=93.428571428571, 
             ["x_menu_scale"]=124.57142857143, 
-            ["minimize_scale"]=33.634285714286, 
             ["x_char_len"]=9.1122448979592, 
+            ["minimize_scale"]=33.634285714286, 
             ["y_scale"]=23, 
-            ["x_char_scale"]=10.5, 
-            ["y_scale_raw"]=18
+            ["y_scale_raw"]=18, 
+            ["x_char_scale"]=10.5
         }, 
         ["monospace_flag"]=false
+    }, 
+    ["terminus (ttf)"]={
+        [6]={
+            ["rchat_scale"]=44.357142857143, 
+            ["x_menu_scale"]=59.142857142857, 
+            ["x_char_len"]=4.4387755102041, 
+            ["minimize_scale"]=15.968571428571, 
+            ["y_scale"]=18, 
+            ["y_scale_raw"]=13, 
+            ["x_char_scale"]=5.45
+        }, 
+        [7]={
+            ["rchat_scale"]=51.642857142857, 
+            ["x_menu_scale"]=68.857142857143, 
+            ["x_char_len"]=5.1326530612245, 
+            ["minimize_scale"]=18.591428571429, 
+            ["y_scale"]=19, 
+            ["y_scale_raw"]=14, 
+            ["x_char_scale"]=6.15
+        }, 
+        [8]={
+            ["rchat_scale"]=58.928571428571, 
+            ["x_menu_scale"]=78.571428571429, 
+            ["x_char_len"]=5.8265306122449, 
+            ["minimize_scale"]=21.214285714286, 
+            ["y_scale"]=19.5, 
+            ["y_scale_raw"]=14.5, 
+            ["x_char_scale"]=6.85
+        }, 
+        [9]={
+            ["rchat_scale"]=66.214285714286, 
+            ["x_menu_scale"]=88.285714285714, 
+            ["x_char_len"]=6.5204081632653, 
+            ["minimize_scale"]=23.837142857143, 
+            ["y_scale"]=20.5, 
+            ["y_scale_raw"]=15.5, 
+            ["x_char_scale"]=7.55
+        }, 
+        [10]={
+            ["rchat_scale"]=73.5, 
+            ["x_menu_scale"]=98, 
+            ["x_char_len"]=7.2142857142857, 
+            ["minimize_scale"]=26.46, 
+            ["y_scale"]=21, 
+            ["y_scale_raw"]=16, 
+            ["x_char_scale"]=8.2
+        }, 
+        [11]={
+            ["rchat_scale"]=80.785714285714, 
+            ["x_menu_scale"]=107.71428571429, 
+            ["x_char_len"]=7.9081632653061, 
+            ["minimize_scale"]=29.082857142857, 
+            ["y_scale"]=21.5, 
+            ["y_scale_raw"]=16.5, 
+            ["x_char_scale"]=8.9
+        }, 
+        [12]={
+            ["rchat_scale"]=88.071428571429, 
+            ["x_menu_scale"]=117.42857142857, 
+            ["x_char_len"]=8.6020408163265, 
+            ["minimize_scale"]=31.705714285714, 
+            ["y_scale"]=22.5, 
+            ["y_scale_raw"]=17.5, 
+            ["x_char_scale"]=9.6
+        }, 
+        ["monospace_flag"]=true
+    }, 
+    ["courier new"]={
+        [6]={
+            ["rchat_scale"]=52.714285714286, 
+            ["x_menu_scale"]=70.285714285714, 
+            ["x_char_len"]=5.234693877551, 
+            ["minimize_scale"]=18.977142857143, 
+            ["y_scale"]=16.5, 
+            ["y_scale_raw"]=11.5, 
+            ["x_char_scale"]=6.1
+        }, 
+        [7]={
+            ["rchat_scale"]=61.392857142857, 
+            ["x_menu_scale"]=81.857142857143, 
+            ["x_char_len"]=6.0612244897959, 
+            ["minimize_scale"]=22.101428571429, 
+            ["y_scale"]=17, 
+            ["y_scale_raw"]=12, 
+            ["x_char_scale"]=6.9
+        }, 
+        [8]={
+            ["rchat_scale"]=70.178571428571, 
+            ["x_menu_scale"]=93.571428571429, 
+            ["x_char_len"]=6.8979591836735, 
+            ["minimize_scale"]=25.264285714286, 
+            ["y_scale"]=18, 
+            ["y_scale_raw"]=13, 
+            ["x_char_scale"]=7.75
+        }, 
+        [9]={
+            ["rchat_scale"]=78.857142857143, 
+            ["x_menu_scale"]=105.14285714286, 
+            ["x_char_len"]=7.7244897959184, 
+            ["minimize_scale"]=28.388571428571, 
+            ["y_scale"]=18.5, 
+            ["y_scale_raw"]=13.5, 
+            ["x_char_scale"]=8.55
+        }, 
+        [10]={
+            ["rchat_scale"]=87.642857142857, 
+            ["x_menu_scale"]=116.85714285714, 
+            ["x_char_len"]=8.5612244897959, 
+            ["minimize_scale"]=31.551428571429, 
+            ["y_scale"]=19.5, 
+            ["y_scale_raw"]=14.5, 
+            ["x_char_scale"]=9.4
+        }, 
+        [11]={
+            ["rchat_scale"]=96.428571428571, 
+            ["x_menu_scale"]=128.57142857143, 
+            ["x_char_len"]=9.3979591836735, 
+            ["minimize_scale"]=34.714285714286, 
+            ["y_scale"]=20, 
+            ["y_scale_raw"]=15, 
+            ["x_char_scale"]=10.2
+        }, 
+        [12]={
+            ["rchat_scale"]=105.10714285714, 
+            ["x_menu_scale"]=140.14285714286, 
+            ["x_char_len"]=10.224489795918, 
+            ["minimize_scale"]=37.838571428571, 
+            ["y_scale"]=21, 
+            ["y_scale_raw"]=16, 
+            ["x_char_scale"]=11.05
+        }, 
+        ["monospace_flag"]=true
     }
 }

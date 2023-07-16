@@ -13,12 +13,12 @@
                 <visible>false</visible>
             </bg>
             <flags>
-                <bold>true</bold>
+                <bold>false</bold>
                 <bottom>false</bottom>
                 <italic>false</italic>
                 <right>false</right>
             </flags>
-            <format>= %s =</format>
+            <format>﻿ = %s = ﻿</format>
             <padding>0</padding>
             <pos>
                 <x>0</x>
@@ -37,7 +37,7 @@
                 </fonts>
                 <green>100</green>
                 <red>55</red>
-                <size>36</size>
+                <size>30</size>
                 <stroke>
                     <alpha>255</alpha>
                     <blue>0</blue>
@@ -63,7 +63,7 @@
                 <italic>false</italic>
                 <right>false</right>
             </flags>
-            <format>%s</format>
+            <format>﻿ %s ﻿</format>
             <padding>0</padding>
             <pos>
                 <x>0</x>
@@ -81,7 +81,7 @@
                 </fonts>
                 <green>100</green>
                 <red>55</red>
-                <size>78</size>
+                <size>65</size>
                 <stroke>
                     <alpha>255</alpha>
                     <blue>0</blue>

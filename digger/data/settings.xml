@@ -19,17 +19,17 @@
     </global>
     <nalocbar>
         <accuracy>
-            <failed>780</failed>
-            <total>1091</total>
+            <failed>1043</failed>
+            <total>1487</total>
         </accuracy>
         <delay>
-            <area>55</area>
-            <dig>10</dig>
+            <area>50</area>
+            <dig>5</dig>
         </delay>
         <fatigue>
-            <date>2022-08-06</date>
-            <diff>-251</diff>
-            <items>59</items>
+            <date>2022-10-24</date>
+            <diff>-344</diff>
+            <items>99</items>
         </fatigue>
     </nalocbar>
 </settings>

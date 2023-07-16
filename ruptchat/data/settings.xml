@@ -88,14 +88,11 @@
         <log_length>15</log_length>
         <log_width>850</log_width>
         <pos>
-            <x>383</x>
-            <y>921</y>
+            <x>386</x>
+            <y>926</y>
         </pos>
         <text>
             <font>Ponderosa</font>
-            <fonts>
-
-            </fonts>
             <size>8</size>
             <stroke>
                 <width>2.25</width>
@@ -113,15 +110,15 @@
         <flags>
             <bold>true</bold>
         </flags>
-        <log_length>15</log_length>
+        <log_length>17</log_length>
         <log_width>1100</log_width>
         <pos>
-            <x>384</x>
-            <y>878</y>
+            <x>385</x>
+            <y>904</y>
         </pos>
         <text>
-            <font>Final Fantasy 3/6 font</font>
-            <size>12</size>
+            <font>Ponderosa</font>
+            <size>8</size>
             <stroke>
                 <width>3</width>
             </stroke>
