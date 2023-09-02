@@ -1,3 +1,7 @@
+# ARCHIVED
+This will no longer be updated in this location. Please go here for future updates:  
+https://notabug.org/gammaleak/addons
+
 Gamma Leak's / Asura.Nalocbar's Windower Addons
 -----------------------------------------------
 
